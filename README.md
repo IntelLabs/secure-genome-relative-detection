@@ -1,1 +1,5 @@
-# il-opensource-template
+# Private Detection of Relatives in Forensic Genomics using Homomorphic Encryption
+
+This open-source code introduces FHE-based privacy-preserving methods for SNP DNA analysis, offering a means to compute kinship scores for a set of genome queries while preserving data privacy. We present three distinct approaches, including one unsupervised and two supervised methods, all of which demonstrated exceptional performance in the iDASH 2023 Track 1 competition. Our HE-based methods can rapidly predict 400 kinship scores from an encrypted database containing 2000 entries within seconds, capitalizing on advanced technologies like Intel AVX vector extensions, Intel HEXL, and Microsoft SEAL HE libraries. Crucially, all three methods achieve remarkable accuracy levels (ranging from 96% to 100%), as evaluated by the auROC score metric, while maintaining robust 128-bit security. These findings underscore the transformative potential of FHE in both safeguarding genomic data privacy and streamlining precise DNA analysis.
+
+Code and examples coming soon...
